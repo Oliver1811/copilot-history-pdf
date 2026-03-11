@@ -139,7 +139,11 @@ Examples:
         print(f"Converting {args.input} to PDF...")
         converter = ChatHistoryConverter(args.input, args.output, config)
         output_path = converter.convert()
+        
+        # Show exchange count
+        exchange_count = len(converter.chat_data.get('requests', []))
         print(f"✓ PDF created successfully: {output_path}")
+        print(f"  Processed {exchange_count} exchange(s)")
         return 0
     
     except FileNotFoundError as e:

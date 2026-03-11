@@ -167,6 +167,8 @@ class ChatHistoryConverter:
         # Process each request/response pair
         requests = self.chat_data.get('requests', [])
         
+        print(f"  Found {len(requests)} request(s) in JSON")
+        
         for idx, request_data in enumerate(requests, 1):
             exchange_elements = self._build_exchange(request_data, idx)
             elements.extend(exchange_elements)
