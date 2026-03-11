@@ -2,6 +2,12 @@
 
 A Python package to convert GitHub Copilot chat history JSON files into formatted PDF documents. Perfect for students submitting chat logs for assignments or instructors analyzing student interactions with AI coding assistants.
 
+## Why This Package?
+
+This package was created to solve a real problem: **universities requiring PDF submissions of GitHub Copilot chat histories, but VS Code only exports chats as JSON files.**
+
+Yesterday, my friend struggled to share his GitHub Copilot chat history reliably in VS Code for a university assignment. Our university requires PDF output of all chat input prompts and outputs for academic integrity and assessment purposes. Since Copilot only exports chat histories in JSON format, there was no straightforward way to convert them to the required PDF format. This package bridges that gap, making it easy for students to meet submission requirements while instructors can review AI-assisted work in a readable format.
+
 ## Features
 
 - 🎨 **Beautifully Formatted PDFs** - Color-coded user/assistant messages with timestamps
