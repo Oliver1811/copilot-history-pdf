@@ -1,0 +1,32 @@
+{
+  "replacements": [
+    {
+      "find": "John Doe",
+      "replace": "[STUDENT NAME]"
+    },
+    {
+      "find": "johndoe@university.edu",
+      "replace": "[STUDENT EMAIL]"
+    },
+    {
+      "find": "my secret key: sk-123456789",
+      "replace": "[API KEY REDACTED]"
+    },
+    {
+      "find": "password123",
+      "replace": "[PASSWORD REDACTED]"
+    },
+    {
+      "find": "/Users/johndoe/projects",
+      "replace": "/path/to/project"
+    },
+    {
+      "find": "192.168.1.100",
+      "replace": "[IP ADDRESS]"
+    },
+    {
+      "find": "Company Name Inc.",
+      "replace": "[COMPANY]"
+    }
+  ]
+}
