@@ -1,0 +1,46 @@
+{
+  "responderUsername": "GitHub Copilot",
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "test-request-1",
+      "message": {
+        "text": "How do I create a Python function?",
+        "parts": [
+          {
+            "text": "How do I create a Python function?"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": {
+            "value": "To create a Python function, use the def keyword followed by the function name and parentheses."
+          }
+        }
+      ],
+      "timestamp": 1700000000000,
+      "modelId": "copilot/gpt-4"
+    },
+    {
+      "requestId": "test-request-2",
+      "message": {
+        "text": "Can you show me an example?",
+        "parts": [
+          {
+            "text": "Can you show me an example?"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": {
+            "value": "Here's a simple example:\n\ndef greet(name):\n    return f'Hello, {name}!'"
+          }
+        }
+      ],
+      "timestamp": 1700000060000,
+      "modelId": "copilot/claude-sonnet-4.5"
+    }
+  ]
+}

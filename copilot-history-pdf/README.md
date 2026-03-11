@@ -21,7 +21,7 @@ pip install copilot-history-pdf
 ### For Development
 
 ```bash
-git clone https://github.com/yourusername/copilot-history-pdf.git
+git clone https://github.com/Oliver1811/copilot-history-pdf.git
 cd copilot-history-pdf
 pip install -e .
 ```
