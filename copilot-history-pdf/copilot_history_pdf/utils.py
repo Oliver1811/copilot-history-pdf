@@ -122,7 +122,11 @@ def load_replacements_config(config_path):
     
     # Extract replacements from config
     if 'replacements' in config:
-        return config['replacements']
+        replacements_list = config['replacements']
+        # Convert list format [{"find": "x", "replace": "y"}] to dict {"x": "y"}
+        if isinstance(replacements_list, list):
+            return {item['find']: item['replace'] for item in replacements_list}
+        return replacements_list
     
     return config
 
