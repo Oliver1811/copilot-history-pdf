@@ -22,15 +22,15 @@ if requirements_path.exists():
 setup(
     name='copilot-history-pdf',
     version='0.1.0',
-    author='Your Name',  # Update with your name
-    author_email='your.email@example.com',  # Update with your email
+    author='Oliver Benton',  # Update with your name
+    author_email='oliver.benton@icloud.com',  # Update with your email
     description='Convert GitHub Copilot chat history JSON files to formatted PDF documents',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/copilot-history-pdf',  # Update with your repo URL
+    url='https://github.com/Oliver1811/copilot-history-pdf',
     project_urls={
-        'Bug Reports': 'https://github.com/yourusername/copilot-history-pdf/issues',
-        'Source': 'https://github.com/yourusername/copilot-history-pdf',
+        'Bug Reports': 'https://github.com/Oliver1811/copilot-history-pdf/issues',
+        'Source': 'https://github.com/Oliver1811/copilot-history-pdf',
     },
     packages=find_packages(),
     classifiers=[
