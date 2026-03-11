@@ -21,7 +21,7 @@ if requirements_path.exists():
 
 setup(
     name='copilot-history-pdf',
-    version='0.1.1',
+    version='0.1.2',
     author='Oliver Benton',  # Update with your name
     author_email='oliver.benton@icloud.com',  # Update with your email
     description='Convert GitHub Copilot chat history JSON files to formatted PDF documents',

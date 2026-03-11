@@ -27,4 +27,4 @@ __all__ = [
     'get_exchange_count'
 ]
 
-__version__ = '0.1.0'
+__version__ = '0.1.2'

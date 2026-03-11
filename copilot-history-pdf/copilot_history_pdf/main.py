@@ -104,7 +104,7 @@ Examples:
     parser.add_argument(
         '-v', '--version',
         action='version',
-        version='%(prog)s 0.1.0'
+        version='%(prog)s 0.1.2'
     )
     
     args = parser.parse_args()
